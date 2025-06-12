@@ -1,11 +1,11 @@
-#Blog AggreGATOR
+# Blog AggreGATOR
 
 This is a guided project from boot.dev where I practiced using database
 and client using Golang.
 
 This app fetches news or links at an interval, it can only fetch websites that provides accessible RSS
 
-##commands:
+## commands:
 every command should have a prefix of `go run . `
 e.g. `go run . register raven` which registers a new user
 
