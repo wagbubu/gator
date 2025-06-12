@@ -5,7 +5,7 @@ and client using Golang.
 
 This app fetches news or links at an interval, it can only fetch websites that provides accessible RSS
 ## Config
-    you will need to have a config like this
+you will need to have a config like this
     ```json
     {"db_url":"postgres://postgres:postgres@localhost:5432/gator?sslmode=disable","current_user_name":"raven"}
     ```
