@@ -4,6 +4,17 @@ This is a guided project from boot.dev where I practiced using database
 and client using Golang.
 
 This app fetches news or links at an interval, it can only fetch websites that provides accessible RSS
+## Config
+    you will need to have a config like this
+    ```json
+{"db_url":"postgres://postgres:postgres@localhost:5432/gator?sslmode=disable","current_user_name":"raven"}
+    ```
+## Requirements
+- postgres
+- go
+
+you can install using this command 
+`go install https://github.com/wagbubu/gator`
 
 ## commands:
 every command should have a prefix of `go run . `
